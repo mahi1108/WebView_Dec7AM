@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et1"
+                android:layout_weight="0.9"
+                android:hint="Enter URL"/>
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="wrap_content"
+                android:id="@+id/search"
+                android:background="@drawable/ic_search_black_24dp"/>
+
+
+
+    </LinearLayout>
+
+    <WebView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:id="@+id/wview"></WebView>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+        <Button
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:id="@+id/fb"
+                android:background="@drawable/ic_001_facebook_logo_button"/>
+
+        <Button  android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:id="@+id/google"
+                android:background="@drawable/ic_002_google_plus_logo_button"/>
+
+
+        <Button  android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:id="@+id/you"
+                android:background="@drawable/ic_003_youtube_symbol"/>
+
+
+        <Button  android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:id="@+id/html"
+                android:background="@drawable/ic_html_5_logo"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
